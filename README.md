@@ -1,4 +1,4 @@
-# 智能手势识别系统 v4.0
+# 智能手势识别系统 v2.0
 
 [![Python Version](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org/)
