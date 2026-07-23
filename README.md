@@ -31,7 +31,7 @@
 - ✅ **友好界面**: 基于PyQt5的现代化UI设计
 - ✅ **手部关键点**: 集成MediaPipe手部关键点检测和可视化
 - ✅ **PyTorch实现**: 使用PyTorch框架，易于扩展和优化
-
+<a name="main-functions"></a>
 ## 🚀 主要功能
 
 ### 1. 多种识别模式
@@ -52,7 +52,7 @@
 - 手部骨架连接线可视化
 - 识别结果实时显示
 - 置信度评分显示(未完成)
-
+<a name="technical-architecture"></a>
 ## 🛠️ 技术架构
 
 ### 深度学习模型
@@ -90,7 +90,7 @@
    - 现代化UI设计
    - 实时视频流显示
    - 多线程处理
-
+<a name="requirements"></a>
 ## 💻 环境要求
 
 ### 系统要求
@@ -120,7 +120,7 @@ tensorflow>=2.4.0  (MediaPipe依赖)
 pandas>=1.2.1
 scikit-learn>=0.24.1
 ```
-
+<a name="installation"></a>
 ## 📦 安装步骤
 
 ### 1. 克隆项目
@@ -175,7 +175,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # CUDA 11.8版本
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
-
+<a name="usage"></a>
 ## 🎮 使用方法
 
 ### 1. 启动图形界面
@@ -223,7 +223,7 @@ python JPGDet.py
 ```bash
 python VideoDet.py
 ```
-
+<a name="project-structure"></a>
 ## 📁 项目结构
 
 ```
@@ -266,7 +266,7 @@ GestureRecognition_v4/
 │
 └── save/                          # 保存输出结果的文件夹
 ```
-
+<a name="model-training"></a>
 ## 🎓 模型训练
 
 ### 数据集准备
@@ -325,7 +325,7 @@ python train_pytorch.py
 - 随机水平翻转: 30%概率
 - 颜色抖动: 亮度和对比度±10%
 - 归一化: ImageNet标准均值和方差
-
+<a name="performance"></a>
 ## 📊 性能指标
 
 ### 模型性能
@@ -353,7 +353,7 @@ python train_pytorch.py
 | OK      | 97%   | -      |
 
 *注: 具体数据需根据实际训练结果填写*
-
+<a name="faq"></a>
 ## ❓ 常见问题
 
 ### Q1: 运行时提示"找不到模型文件"
